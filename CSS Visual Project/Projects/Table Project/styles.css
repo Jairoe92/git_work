@@ -1,0 +1,54 @@
+body{padding: 10px 50px 50px;
+  background-color: wheat;
+}
+h1 {
+	font-family: cursive;
+	text-align:center;
+	color: seagreen;
+	}
+table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+td, th{
+  border: 1px solid seagreen;
+  padding: 8px;
+}
+
+.tag {
+  font-family: monospace;
+  color: white;
+  font-style: bolder italic;
+  background-color: seagreen;
+  opacity: 0.5;
+}
+th{
+  background-color: khaki; 
+
+}
+/* DO NOT DISPLAY *\
+th {
+  font-weight:bold;
+  font-family: cursive;
+  font-size: 16px;
+  text-align: center;
+  background-color: gray;
+  border-bottom: 2px solid black;
+}
+table {
+}
+.tag {
+  font-family: monospace;
+  color: white;
+  background-color: seagreen;
+  font-style: bolder italic;
+  opacity: 0.5;
+}
+.name {
+  font-family: georgia;
+  text-align: center;
+}
+.function {
+  font-family: georgia;
+}

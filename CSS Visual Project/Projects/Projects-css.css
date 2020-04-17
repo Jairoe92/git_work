@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: auto 0;
+    background-image: url("../images/Section\ image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Navigation */
+
+.main-nav{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+li {
+    display: inline;
+    position: relative;
+    top: 10px;
+    right: 30px;
+    padding-right: 10px;
+    color: blanchedalmond;
+    font-size: 16px;
+    font-family: merriweather, "sans serif";
+    font-style: italic;
+    text-decoration: underline;
+    
+}
+li:hover {
+    display: inline;
+    position: relative;
+    top: 10px;
+    right: 30px;
+    padding-right: 10px;
+    color: black;
+    background-color: blanchedalmond;
+    font-size: 16px;
+    font-family: merriweather, "sans serif";
+    font-style: italic;
+    text-decoration: underline;
+    
+}
+/* main heading */
+
+h1{
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    border-bottom: 2px solid darkslategrey;
+    color: cornflowerblue;
+}
+/* projects section */
+
+.Tables-project{
+    position: absolute;
+    top: 200px;
+    left:20px;
+    background-color: lightblue;
+    width: 20%;
+    height: 10%; 
+    border: 1px solid darkslategrey;
+}
+.Tables-project p{
+    text-align: center;
+    font-family: merriweather, "sans serif";
+    padding-top: 5px;
+}
+.Tables-project:hover{
+    position: absolute;
+    top: 200px;
+    left:20px;
+    background-color: blanchedalmond;
+    width: 20%;
+    height: 10%; 
+    border: 5px solid lightblue;
+}
+.dasmotos-project{
+    position: absolute;
+    top: 300px;
+    left:20px;
+    background-color: rgb(231, 128, 231);
+    width: 20%;
+    height: 10%; 
+    border: 1px solid darkslategrey;
+}
+.dasmotos-project:hover{
+    position: absolute;
+    top: 300px;
+    left:20px;
+    background-color: blanchedalmond;
+    color: black;
+    width: 20%;
+    height: 10%; 
+    border: 5px solid rgb(231, 128, 231);
+}
+.dasmotos-project p{
+    text-align: center;
+    font-family: merriweather, "sans serif";
+    padding-top: 5px;
+}
+.freedom-project{
+    position: absolute;
+    top: 400px;
+    left:20px;
+    background-color: lightblue;
+    width: 20%;
+    height: 10%; 
+    border: 1px solid darkslategrey;
+}
+.freedom-project:hover{
+    position: absolute;
+    top: 400px;
+    left:20px;
+    background-color: blanchedalmond;
+    color: black;
+    width: 20%;
+    height: 10%; 
+    border: 5px solid lightblue;
+}
+.freedom-project p{
+    text-align: center;
+    font-family: merriweather, "sans serif";
+    padding-top: 5px;
+}
+
+
+/* Footer section */
+
+.footer{
+    position: absolute;
+    top: 95%;
+    background-color: black;
+    width: 100%;
+
+}
+.footer p{
+    color: blanchedalmond;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}

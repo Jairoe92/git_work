@@ -1,0 +1,93 @@
+
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  margin: 0;
+	background: #000000
+}
+.header {
+  background-color:#212121;
+	height: 150px;
+	opacity: 1;
+  /*filter: alpha(opacity=50); /* For IE8 and earlier */
+  padding:25px;
+	margin:0;
+  text-align: center;
+}
+.navbar{
+	margin: 8px;
+	
+}
+.navbar > a{
+	padding-right: 35px;
+	text-decoration: none;
+		color: lightgrey;
+	text-transform: uppercase;
+	font-family:  Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+}
+
+.navbar > a:hover{
+	padding-right: 35px;
+	text-decoration: none;
+		color: #EE6B1E;
+	text-transform: uppercase;
+	font-family:  Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+	color: lightgrey;
+  float: left;
+  width: 50%;
+  padding: 10px;
+	margin: 1px 1px 1px 1px;
+	border: 3px solid ;
+	background-color: black;
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	
+	
+}
+.column:hover {
+  background-color:#EE6B1E;
+  color: white;
+	transition: 1s;
+	transform: scale(.96);
+}
+
+.column2 {
+	color: lightgrey;
+  float: right;
+  width: 50%;
+  padding: 10px;
+	margin: -150px 1px 1px 1px;
+	border: 3px solid ;
+	background-color: black;
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	
+	
+}
+.column2:hover {
+  background-color:#EE6B1E;
+  color: white;
+	transition: 1s;
+	transform: scale(.96);
+}
+
+.link{
+	color: lightgray;
+	text-decoration: none;
+	text-align:justify;
+}
+.link:hover {
+	color: white;
+}
+
+/* Clear floats after the columns */
+/*.row:after {
+  content: "";
+  display: table;
+  clear: left;
+}

@@ -1,0 +1,94 @@
+
+body {
+    padding: 0;
+    margin: auto 0;
+}
+@media only screen and (max-width: 600px) {
+
+    
+}
+
+.main-nav{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+.main-section{
+    height: auto;
+    margin-bottom: -20px;
+}
+.quote{
+    display: inline-block;
+    position: relative;
+    top: 200px;
+    left: 380px;
+    text-align: center;
+    font-family: merriweather, "serif";
+    font-size: 14px;
+    color:black;
+    
+}
+.button{
+    display:inline-block;
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    background-color: black;
+    color: blanchedalmond;
+    font-family: merriweather, "sans serif";
+    font-size: 16px;
+    font-weight: 400;
+    padding: 25px;
+    border: 2px solid blanchedalmond   
+}
+.button:hover{
+    display:inline-block;
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    background-color:blanchedalmond;
+    color:black;
+    font-family: merriweather, "sans serif";
+    font-size: 16px;
+    font-weight: 400;
+    padding: 25px;
+    border: 2px solid black;
+}
+li {
+    display: inline;
+    position: relative;
+    top: 10px;
+    right: 30px;
+    padding-right: 10px;
+    font-family: merriweather, "sans serif";
+    font-size: 16px;
+    font-style: italic;
+    text-align: left;
+    list-style: none;
+    color: blanchedalmond;
+    text-decoration: underline;
+}
+li:hover {
+    display: inline;
+    font-family: merriweather, "sans serif";
+    font-size: 16px;
+    font-style: italic;
+    text-align: left;
+    list-style: none;
+    color: black;
+    background-color: blanchedalmond;
+}
+.footer{
+    height:60px;
+    background-color: black;
+}
+.footer p{
+    color: blanchedalmond;
+    text-align: center;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}

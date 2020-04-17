@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Soa Information Guide</title>
+<link href="soa.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="header">
+	<h1 style="font-weight: 100"> Service Order Administration (SOA) Guide <img class="headerimage" src="../../images/background.png.png"></img>	
+	</h1>
+</div>
+
+
+<div class="para1">
+	<a> Have you been hearing a lot about SOA and have no idea what it is? Or how it even works?
+Yes? Read on! And hopefully that changes! IF not… still read on! 😊
+</a>
+</div>
+<br>
+<br>
+<div class="list">
+<h3>Things to Remember:</h3>
+	<ul>
+		<li>SOE -Service Order Entry</li>
+		<li>OSS -Operational Support System</li>
+		<li>SOA - Service Order Administration</li>
+		<li>IMSI - International Mobile Station Identifier</li>
+		<li>LATA - Local Access Transport Area</li>
+		<li>LRN - Location Routing Number</li>
+		<li>MDN - Mobile Directory Number</li>
+		<li>LNP - Local Number Portability</li>
+		<li>ICP - Inter-carrier Communications Process</li>
+		<li>HLR - Home Location Register</li>
+		<li>INC - Industry Numbering Committee</li>
+		<li>LSR - Local Service Request</li>
+		<li>NPAC - Number Portability Administration Center</li>
+		<li>POS - Point of Sale</li>
+		<li>WPR - Wireless Port Request</li>
+		
+	</ul>
+	
+</div>
+
+<div class="para2">
+	<p> Today, we take for granted that we can keep our telephone numbers when we change communications service providers—something that wasn't possible just 15 short years ago. But thanks to the Number Portability Administration Center, the NPAC, the system that enables local number portability, consumers can freely switch between service providers and retain their telephone numbers.
+The SOA is the interface between each SP’s SOE (Service Order Entry) system and the NPAC database and is the point where a new subscription is sent to the NPAC.
+</p>
+	
+</div>
+<div class="heading">
+	<h3 class="sentence1">The following transactions occur to support LNP functionality:</h3>
+</div>
+<div class="para3">
+	<p class="sentence2">SOA requests for subscription administration to the NPAC SMS and responses from the NPAC SMS to the SOA. This includes the capability to: create, cancel, modify and disconnect an SV Create, place SV Create into and out of conflict as well as retrieve and activate SV Create versions.</p>
+	<br>
+	<br>
+	<br>
+<p class="sentence3">Whenever any of the other providers contacts the porting team, they will sometimes inquire about port out requests (Freedom->Oher Provider). 
+In those cases, we would check NPAC to see the status of that request.
+
+In the example below, we have a request to port out a telephone number, but that request is still pending with no resolution. </p>
+</p>
+</div>
+<div class="image">
+	<img style="width: 600px;height 700px" src="../../images/npacpending.png">
+</div>
+
+<div class="para4">
+	<p class="sentence4">Now, we will need to create a response using SOA in order to have this number ported out.
+Firstly, you will need to access the SOA interface by selecting the “SOA Selection” option highlighted in the screenshot below:
+</p>
+</div>
+<div class="image">
+	<img style="width: 600px;height 700px" src="../../images/soaselection.png">
+</div>
+<div class="para5">
+	<p class="sentence5">Where it says, “From TN”, you will insert the TN in question and hit “Query” button.</p>
+</div>
+<div class="image">
+	<img src="../../images/soapending.png" style="width: 700px; height 900px">
+</div>
+<div class="para6">
+	<p class="sentence6">In the screenshot above, after querying we can see the status of the port out request is still pending with a “Request Type” of “Old SO Create”, this means the other provider is waiting for freedom to confirm the port out request. To do this we would select the, “SO Number” and this will take us to a screen where we can create a response for this port out.</p>
+</div>
+<div class="image">
+	<img src="../../images/modifypending.PNG" style="width: 700px; height 900px">
+</div>
+<div class="para7">
+	<p class="sentence7">In the screenshot above we would select “NPAC Pending” from the dropdown and NOT “NPAC Active”. This will open the section where you would modify the date, in the bottom-right corner of the screenshot below, select the date and time to be “Now” and push the time ahead by “2 mins”, in the example below “15:45” should now be “15”47”.  This request to allow the request to process faster, within Two (2
+) minutes.</p>
+</div>
+<div class="image">
+	<img src="../../images/modifydate.PNG" style="width: 700px; height 900px">
+</div>
+<div class="para8">
+	<p class="sentence8">After adjusting the date and time, make sure you save all changes by hitting “Save”. You should then notice at the top left corner a notification stating that your request has been submitted. IF not then reach out to your TL for assistance.</p>
+</div>
+<div class="image">
+<img src="../../images/request submitted.PNG" style="width: 700px; height 900px" alt=""/> 
+</div>
+<div class="para9">
+	<p class="sentence9">Once you get the confirmation that the request has been submitted, Query the Telephone Number in ICP to ensure the status of the request is confirmed. See the screenshot below for reference. </p>
+</div>
+<div class="image">
+<img src="../../images/portoutconfirmed.PNG" style="width: 700px; height 900px" alt=""/> 
+</div>
+<div class="para10">
+	<p class="sentence10">Done! There you go! You have completed one of the many SP Create Options in SOA! Congratulations! :D </p>
+</div>
+
+<footer class="footer">N.B SOA has many different functions; this guide can be used as a reference when trying to navigate SOA or with creating any other responses.</footer>
+
+
+
+</body>
+</html>

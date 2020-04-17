@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  margin: 0;
+	background: #000000
+}
+
+/* Style the header */
+
+.header {
+  background-color:#212121;
+	height: 150px;
+	opacity: 1;
+  /*filter: alpha(opacity=50); /* For IE8 and earlier */
+  padding: 25px;
+  text-align: center;
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	
+}
+
+/*Create three equal colums thats float next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+	margin-top: 25px;
+}
+
+.column:hover {
+  background-color:#EE6B1E;
+	transition: 1s;
+	transform: scale(.95);
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+/* Style the footer 
+.footer{
+	display: inline;
+	align-content: center;
+	background-color: lightgray;
+	color: white;
+	margin: 1px;
+	
+	
+} */
